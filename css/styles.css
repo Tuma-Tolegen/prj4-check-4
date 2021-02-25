@@ -1,0 +1,67 @@
+@charset "UTF-8";
+body {
+    background-image: url(../images/wallpaper-patter.jpg);
+}
+h1 {
+    font-family: 'Anton', sans-serif;
+    margin-top: 20px;
+    color: #FAF5F5;	
+}
+
+.mybut {
+    width: 120px;
+    height: 58px;
+    border-radius: 14px;
+    background-color: aliceblue;
+    font-family: 'Anton', sans-serif;
+    font-size: 20pt;
+    margin-left: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;	
+}
+.gotitfont {
+    text-decoration: none;
+    color: #26637F	
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+}
+.mybut:hover {
+	background-color: #F7CD69;
+}
+.myheader {
+    width: 900px;
+    height: 264px;
+    background-color: #EFF16C;
+    margin: auto;
+	margin-right: auto;
+	margin-top: 0px;
+    background-image: url(../images/city.png);
+	padding-bottom: 0px;
+	border: 0px;
+	font-size: 100%;
+}
+.mycontent .goodguy {
+	float: left;
+	padding-right: 12px;
+}
+
+.mycontent {
+    width: 876px;
+    height: 864px;
+    background-color: #17427D;
+    margin: auto;
+    margin-right: auto;
+    color: #FCFCFC;
+    text-align: justify;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+.myheader nav .mybut {
+}
+
